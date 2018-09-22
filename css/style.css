@@ -1,0 +1,40 @@
+/* PHẦN BODY */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    background-image: url(../img/background.jpg);
+}
+/* PHẦN ĐẦU TRANG WEB */
+#header{
+    text-align: center;
+}
+/* PHẦN MENU TRANG WEB */
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: #490000;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #d46927de;
+    font-weight: bold;
+}
+/* PHẦN NỘI DUNG TRANG WEB */
+#content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1{
+    color: #9a4b19de;
+    font-weight: bold;
+    font-size: 2em;
+}
